@@ -1,0 +1,39 @@
+---
+title: Kontakt
+permalink: /kontakt/
+---
+
+<script>
+  function enableSubmit(){
+    $(".send-form").removeClass("hidden");
+  };
+
+  function disableSubmit(){
+    $(".send-form").addClass("hidden");
+  };
+</script>
+
+<div class="row">
+  <div class="col-sm-6">
+    <h2 class="editable">Kontakt</h2>
+    <p class="editable">Telefon: +49 (30) 3465 5460-0<br />Telefax: +49 (30) 3465 5460-9<br />E-Mail: info@bioprojet.de</p>
+    <form method="post" action="/danke">
+      <input name="name" type="text" class="form-control" placeholder="Name" /><br />
+      <input name="email" type="text" class="form-control" placeholder="Email" /><br />
+      <textarea name="message" class="form-control" placeholder="Nachricht" rows="8"></textarea><br />
+
+      <input type="hidden" name="_to" value="info@bioprojet.de" />
+      <input type="text" name="_gotcha" style="display: none;" />
+      <div class="g-recaptcha" data-sitekey="6LfWMQsUAAAAAMf4mJ5sGl3iyGbIODPZ8WZOoCeU" data-callback="enableSubmit" data-expired-callback="disableSubmit"></div>
+
+      <input type="submit" class="send-form btn btn-default hidden" value="Abschicken" />
+    </form>
+  </div><!-- / col -->
+  <div class="col-sm-6">
+    <h2 class="editable">Standort</h2>
+    <p class="editable">Bioprojet Deutschland GmbH<br />Bismarckstr. 63<br />12169 Berlin</p>
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe class="embed-responsive-item" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Bismarckstr.%2063%2C%2012169%20Berlin&key=AIzaSyCAl3r6k6VcxK7Xz2ZRnWtXBqaC2vPEYl0" allowfullscreen></iframe>
+    </div>
+  </div><!-- / col -->
+</div><!-- / row -->

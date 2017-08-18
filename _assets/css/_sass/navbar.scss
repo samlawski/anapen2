@@ -1,0 +1,61 @@
+.website-wrapper {
+  padding-top: 81px;
+}
+body>nav.navbar{
+  max-width: $max-width;
+  margin: auto;
+
+  padding-top: 25px;
+  background-color: white;
+  border-bottom: 1px solid $grey-color-light;
+
+  a, a:link, a:visited {
+    border-bottom: 5px solid transparent;
+  }
+  a:hover, a:focus {
+    background-color: inherit;
+    border-bottom: 5px solid $brand-color;
+  }
+  a.navbar-brand {
+    position: relative;
+
+    &:hover, &:focus {
+      border-bottom: 5px solid transparent;
+    }
+  }
+  .logo {
+    width: 180px;
+    margin-top: -20px;
+  }
+  // Mobile dropdown
+  .icon-bar {
+    background-color: $grey-color;
+  }
+}
+
+@media (max-width: 1200px) { // Medium Screen view
+  .website-wrapper {
+    padding-top: 76px;
+  }
+  body>nav.navbar{
+    a, a:link, a:visited {
+      padding: 10px 10px 15px;
+    }
+  }
+}
+@media (max-width: 929px) { // Phone view
+  #navbar {
+    margin-left: 0;
+    text-align: right;
+    background-color: white;
+  }
+  body>nav.navbar {
+    li {
+      background-color: white;
+      a { display: inline-block }
+    }
+    .logo{
+      left: 16px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.comparison-table {
+  &>tbody>tr>td.comparison__cell--check {
+    text-align: center;
+    vertical-align: middle;
+
+    .glyphicon-ok {
+      color: green;
+    }
+
+    .glyphicon-remove {
+      color: tomato;
+    }
+  }
+
+  .comparison__cell--feature {
+    background-color: $brand-color-lt;
+  }
+
+  thead td{
+    font-family: $title-font-family;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.comparison-table--2 {
+  @extend .comparison-table;
+
+  background-color: $brand-color-lt;
+  box-shadow: 0 0 5px #eee;
+}

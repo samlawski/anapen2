@@ -1,0 +1,43 @@
+#intern {
+  margin-top: 60px;
+  .product-select {
+    list-style: none;
+    overflow-x: scroll;
+    width: 100%;
+    white-space: nowrap;
+    padding: 0;
+    text-align: center;
+
+    .product {
+      display: inline-block;
+    }
+    .product-label {
+      margin-top: 10px;
+    }
+    a {
+      display: block;
+      padding: 15px;
+      transition: padding .4s;
+    }
+    .active a{
+      border-top: 2px solid $brand-color;
+      border-bottom: 2px solid $brand-color;
+      box-shadow: 0 0 10px #ddd;
+    }
+    img {
+      max-height: 100px;
+      width: auto;
+      margin: auto;
+    }
+  }
+  .produkt_beschreibung {
+    img {
+      max-width: 100%;
+      height: auto !important;
+    }
+    a {
+      color: $brand-color;
+      text-decoration: underline;
+    }
+  }
+}

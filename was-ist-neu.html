@@ -1,0 +1,105 @@
+---
+title: Neue Features
+permalink: /was-ist-neu
+vergleichs_punkte:
+  - titel: Altes Feature 1
+    beschreibung: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    anapen_1: true
+    anapen_2: true
+  - titel: Altes Feature 2
+    beschreibung: Sed ut perspiciatis unde omnis iste natus
+    anapen_1: true
+    anapen_2: true
+  - titel: 1. Schwarze Nadelabdeckung (wiederverwendbar)
+    beschreibung: Nach dem Gebrauch ausgetauscht, um Verletzungen mit der Injektionsnadel zu vermeiden
+    anapen_1: false
+    anapen_2: true
+  - titel: 2. Graue Sicherheitskappe
+    beschreibung: Muss vor der Verwendung entfernt werden, um einen versehentlichen Einsatz zu verhindern
+    anapen_1: false
+    anapen_2: true
+  - titel: 3. Etikett am Nadelende
+    beschreibung: Definiert klar, welches Ende zum Spritzen verwendet wird
+    anapen_1: false
+    anapen_2: true
+  - titel: 4. Inspektionsfenster
+    beschreibung: Gibt einen Nachweis darüber, ob das Adrenalin klar, farblos und fertig für den Gebrauch ist
+    anapen_1: false
+    anapen_2: true
+  - titel: 5. Rote Injektionsanzeige
+    beschreibung: Bestätigt, dass das Adrenalin verabreicht wurde"
+    anapen_1: false
+    anapen_2: true
+---
+
+<h2 class="editable">Der orginale Anapen wurde durch die folgenden 5 Features erweitert</h2>
+
+<!-- MOBILE VERSION TABLE -->
+<table class="table comparison-table--2 visible-xs">
+  <thead>
+    <tr>
+      <td class="text-center comparison__cell--feature">
+        Anapen2
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    {% for punkt in page.vergleichs_punkte %}
+      <tr>
+        <td class="col-xs-8">
+          <strong>{{punkt.titel}}</strong><br />
+          <li>{{punkt.beschreibung}}</li>
+        </td>
+        <td class="col-xs-4 comparison__cell--check comparison__cell--feature">
+          {% if punkt.anapen_2 %}
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+          {% else %}
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<!-- DESKTOP VERSION TABLE -->
+<table class="table comparison-table">
+  <thead>
+    <tr>
+      <td class="hidden-xs">
+      </td>
+      <td class="text-center">
+        Anapen
+      </td>
+      <td class="text-center comparison__cell--feature hidden-xs">
+        Anapen2
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    {% for punkt in page.vergleichs_punkte %}
+      <tr>
+        <td class="col-xs-8 col-sm-6">
+          <strong>{{punkt.titel}}</strong><br />
+          <li>{{punkt.beschreibung}}</li>
+        </td>
+        <td class="col-xs-4 col-sm-3 comparison__cell--check">
+          <div>
+            {% if punkt.anapen_1 %}
+              <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+            {% else %}
+              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+            {% endif %}
+          </div>
+        </td>
+        <td class="hidden-xs col-sm-3 comparison__cell--check comparison__cell--feature">
+          {% if punkt.anapen_2 %}
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+          {% else %}
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
