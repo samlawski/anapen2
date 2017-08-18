@@ -18,11 +18,12 @@
   <script>
     // Initialize Firebase
     var config = {
-      apiKey: "AIzaSyBlqels-GUR3vVCerItjATd5B24r4IN_dg",
-      authDomain: "bioprojet-45ecf.firebaseapp.com",
-      databaseURL: "https://bioprojet-45ecf.firebaseio.com",
-      storageBucket: "bioprojet-45ecf.appspot.com",
-      messagingSenderId: "511400272750"
+      apiKey: "AIzaSyDkOT5kb42Olm6_54TBVRErqseT_hqZNGw",
+      authDomain: "anapen2-88bb5.firebaseapp.com",
+      databaseURL: "https://anapen2-88bb5.firebaseio.com",
+      projectId: "anapen2-88bb5",
+      storageBucket: "anapen2-88bb5.appspot.com",
+      messagingSenderId: "662667251692"
     };
     firebase.initializeApp(config);
   </script>
@@ -32,7 +33,7 @@
 </head>
 <body>
   <header>
-    <h1>Produkte bearbeiten</h1>
+    <h1>Interne Seite Bearbeiten</h1>
   </header>
   <section id="require_login" class="hidden">
     Bitte das Admin-Passwort eingeben:
@@ -40,34 +41,18 @@
     <input id="admin_access_submit" type="submit" value="Anmelden" class="btn" />
   </section>
   <main class="hidden">
-    <aside id="list">
-    </aside>
     <section id="edit" class="hidden">
-      <input id="input_id" type="hidden" />
-      <div class="area">
-        <label for="input_name">Titel:</label>
-        <input id="input_name" type="text" placeholder="Name" />
-      </div>
-      <div class="area">
-        <label for="input_bild">Pfad zum Bild:</label>
-        <input id="input_bild" type="text" placeholder="Bild" />
-        <img id="input_bild_current" src="" />
-      </div>
-      <div class="area">
-        <a class="btn" href="cloudcannon:collections/_data/images.yml" target="_blank">Bilder verwalten</a><br>
-        <small>Über diesen Link kannst du Bilder hochladen. Wenn du dort auf das Link-Symbol klickst, kannst du den Pfad zum Bild sehen, kopieren und dann wiederum auf dieser Seite hier einfügen. Dies ist als Titelbild möglich, aber auch über das Bild-Symbol unten im Text-Bereich.</small>
-      </div>
       <div class="area">
         <label for="input_content">Beschreibung:</label>
         <textarea id="input_content"></textarea>
       </div>
       <div class="area">
-        <input class="btn btn-save" id="input_submit" type="submit" value="&#9745; Speichern" />
-        <span id="input_submit_confirmation" class="hidden">Dokument Erfolgreich gespeichert!</span>
+        <a class="btn" href="cloudcannon:collections/_data/files.yml" target="_blank">Bilder verwalten</a><br>
+        <small>Über diesen Link kannst du Bilder hochladen. Wenn du dort auf das Link-Symbol klickst, kannst du den Pfad zum Bild sehen, kopieren und dann wiederum auf dieser Seite hier einfügen. Dies ist als Titelbild möglich, aber auch über das Bild-Symbol unten im Text-Bereich.</small>
       </div>
       <div class="area">
-        <span>Vorsicht! Löschen ist permanent und kann nicht rückgängig gemacht werden!</span><br>
-        <input class="btn btn-delete" id="input_delete" type="submit" value="Löschen" />
+        <input class="btn btn-save" id="input_submit" type="submit" value="&#9745; Speichern" />
+        <span id="input_submit_confirmation" class="hidden">Dokument Erfolgreich gespeichert!</span>
       </div>
     </section>
   </main>

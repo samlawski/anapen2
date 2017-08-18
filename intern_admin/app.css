@@ -26,21 +26,6 @@ body>header>h1 {
   padding: 10px;
 }
 
-/* Sidebar item select */
-#list {
-  margin-top: 10px;
-  width: 300px;
-  background-color: #ededed;
-}
-#list>div {
-  padding: 20px;
-  transition: all .4s;
-  cursor: pointer;
-}
-#list>div:hover {
-  background-color: #ccc;
-}
-
 /* Edit area */
 #edit {
   min-width: 300px;

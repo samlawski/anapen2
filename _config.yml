@@ -28,38 +28,47 @@ defaults:
       path: index.html
     values:
       layout: default
+      style_id: home
   - scope:
       path: infocenter.md
     values:
       layout: page
+      style_id: infocenter
   - scope:
       path: anwendung.md
     values:
       layout: page
+      style_id: anwendung
   - scope:
       path: was-ist-neu.html
     values:
       layout: page
+      style_id: wasistneu
   - scope:
       path: kontakt.html
     values:
       layout: page
+      style_id: kontakt
   - scope:
       path: impressum.html
     values:
       layout: page
+      style_id: impressum
   - scope:
       path: danke.html
     values:
       layout: page
+      style_id: danke
   - scope:
       path: datenschutz.html
     values:
       layout: page
+      style_id: datenschutz
   - scope:
       path: intern.html
     values:
       layout: page
+      style_id: intern
 
 assets:
   compress:
