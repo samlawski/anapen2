@@ -7,18 +7,18 @@
       <span class="icon-bar"></span>
     </button>
 
-    <a class="navbar-brand" href="/">
-      <img class="logo" src="/theme-sb-anapen2/assets/images/anapen2-logo.png" alt="logo">
+    <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">
+      <img class="logo" src="{{ "/theme-sb-anapen2/assets/images/anapen2-logo.png" | prepend: site.baseurl }}" alt="logo">
     </a>
   </div>
 
   <div class="collapse navbar-collapse" id="navbar">
     <ul class="nav navbar-nav">
-      <li><a class="thin" href="/">Home</a></li>
-      <li><a class="thin" href="/infocenter">Infocenter</a></li>
-      <li><a class="thin" href="/anwendung">Anwendung</a></li>
-      <li><a class="thin" href="/was-ist-neu">Was ist neu</a></li>
-      <li><a class="thin" href="/kontakt">Kontakt</a></li>
+      <li><a class="thin" href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+      <li><a class="thin" href="{{ "/infocenter" | prepend: site.baseurl }}">Infocenter</a></li>
+      <li><a class="thin" href="{{ "/anwendung" | prepend: site.baseurl }}">Anwendung</a></li>
+      <li><a class="thin" href="{{ "/was-ist-neu" | prepend: site.baseurl }}">Was ist neu</a></li>
+      <li><a class="thin" href="{{ "/kontakt" | prepend: site.baseurl }}">Kontakt</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
