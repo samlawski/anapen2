@@ -71,6 +71,7 @@ assets:
       - "IE > 9"
 
 plugins_dir:
+  - theme-sb-anapen2
   - jekyll-assets
   - jekyll-sitemap
   - mini_magick
