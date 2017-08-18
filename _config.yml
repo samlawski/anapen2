@@ -17,7 +17,7 @@ title: Anapen 2
 email: a.toussaint@bioprojet.de
 description: Anapen 2 wird zur Notfallbehandlung von Symptomen des anaphylaktischen Schocks angewendet.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://github.com/jimbroski/anapen2" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
