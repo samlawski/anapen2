@@ -80,7 +80,6 @@ assets:
       - "IE > 9"
 
 plugins:
-  - theme-sb-anapen2
   - jekyll-assets
   - jekyll-sitemap
   - mini_magick
