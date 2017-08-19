@@ -79,7 +79,7 @@ assets:
       - "last 2 versions"
       - "IE > 9"
 
-plugins_dir:
+plugins:
   - theme-sb-anapen2
   - jekyll-assets
   - jekyll-sitemap
