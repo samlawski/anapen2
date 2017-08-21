@@ -32,12 +32,12 @@ defaults:
   - scope:
       path: infocenter.md
     values:
-      layout: page
+      layout: content_page
       style_id: infocenter
   - scope:
       path: anwendung.md
     values:
-      layout: page
+      layout: content_page
       style_id: anwendung
   - scope:
       path: was-ist-neu.html
@@ -52,7 +52,7 @@ defaults:
   - scope:
       path: impressum.html
     values:
-      layout: page
+      layout: content_page
       style_id: impressum
   - scope:
       path: danke.html
@@ -62,7 +62,7 @@ defaults:
   - scope:
       path: datenschutz.html
     values:
-      layout: page
+      layout: content_page
       style_id: datenschutz
   - scope:
       path: intern.html
