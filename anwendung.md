@@ -43,11 +43,14 @@ Eine versehentliche Injektion in Hände oder Finger kann begrenzten Blutfluss un
 
 ### Nach der Anwendung des Anapen® Autoinjektors
 
-**(E)** Überprüfen Sie, ob sich die Injektionsanzeige rot gefärbt hat. Dies zeigt an, dass die Injektion vollständig abgeschlossen ist. Wenn die Injektionsanzeige nicht rot ist, muss die Injektion mit einem neuen Anapen® wiederholt werden.
+**(E)** Rufen Sie sofort nach der Anwendung von Anapen® die Notfallnummer 112 an und geben Sie an, dass Sie eine intramuskuläre Adrenalininjektion aufgrund von „Anaphylaxie“ erhalten haben. Die Rettungskräfte werden nach ihrem Eintreffen die Entsorgung des benutzten Autoinjektors veranlassen.
 
 **(F)** Nach der Injektion ragt die Nadel aus dem Autoinjektor heraus. Stecken Sie das breite Ende der schwarzen Nadelkappe auf das offene (Nadel-)Ende des Anapen®, um die Nadel abzudecken.
 
-Sie müssen nach der Anwendung von Anapen® sofort die Notfallnummer 112 wählen und angeben, dass Sie eine intramuskuläre Adrenalininjektion aufgrund von „Anaphylaxie“ erhalten haben. Die Rettungskräfte werden nach ihrem Eintreffen die Entsorgung des benutzten Autoinjektors veranlassen.
+Bei fehlender Verbesserung der Symptome oder falls eine Verschlechterung auftritt, kann eine zweite Injektion mit einem zusätzlichen Anapen® Autoinjektor 5-15 Minuten nach der ersten Injektion angewendet werden. Daher sollten Sie immer 2 Anapen® Autoinjektoren mit sich führen.
+
+Um Verwechslungen in Notfallsituationen zu vermeiden, sollten der Anapen® Autoinjektor und das für die Demonstration der richtigen Anwendung erhältliche Trainingsgerät nicht zusammen aufbewahrt werden.
+
 
 <hr />
 
