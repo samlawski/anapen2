@@ -28,7 +28,7 @@ bild_path: /uploads/anapen2_beschriftet.png
 
 ### Anwendung des Anapen&reg; Autoinjektors
 
-**(A)** Entfernen Sie die schwarze Nadelkappe durch kr&auml;ftiges Ziehen. Gleichzeitig wird der graue Nadelschutz entfernt.
+**(A)** Entfernen Sie die schwarze Nadelkappe durch kr&auml;ftiges Ziehen.Gleichzeitig wird der graue Nadelschutz entfernt.
 
 **(B)** Entfernen Sie durch Ziehen die graue Sicherheitskappe vom roten Ausl&ouml;seknopf.
 
