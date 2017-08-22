@@ -24,7 +24,7 @@ bild_path: /uploads/anapen2_beschriftet.png
 1. Drehen Sie die Abdeckung &uuml;ber den Sichtfenstern, um die Linsen mit den Sichtfenstern auszurichten.
 2. Schauen Sie durch die Linse in das Sichtfenster. Die L&ouml;sung muss klar und farblos sein. Wenn die L&ouml;sung getr&uuml;bt oder verf&auml;rbt ist oder Schwebeteilchen enth&auml;lt, muss der Anapen&reg; entsorgt werden.
 3. Achten Sie darauf, dass die Injektionsanzeige nicht rot ist. Eine rote Anzeige bedeutet, dass der Anapen&reg; bereits ausgel&ouml;st wurde und entsorgt werden muss.
-4. Drehen Sie die Abdeckung &uuml;ber dem Sichtfenster, um sicherzustellen, dass beide Sichtfenster abgedeckt sind.
+4. <div>Drehen Sie die Abdeckung &uuml;ber dem Sichtfenster, um sicherzustellen, dass beide Sichtfenster abgedeckt sind.</div>
 
 ### Anwendung des Anapen&reg; Autoinjektors
 
