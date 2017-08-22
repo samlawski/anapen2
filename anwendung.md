@@ -40,7 +40,7 @@ bild_path: /uploads/anapen2_beschriftet.png
 
 ### Nach der Anwendung des Anapen&reg; Autoinjektors
 
-**(E)&nbsp;**&Uuml;berpr&uuml;fen Sie, ob sich die Injektionsanzeige rot gef&auml;rbt hat. Dies zeigt an, dass die Injektion vollst&auml;ndig abgeschlossen ist. Wenn die &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Injektionsanzeige nicht rot ist, muss die Injektion mit einem neuen Anapen&reg; wiederholt werden.
+**(E)&nbsp;**&Uuml;berpr&uuml;fen Sie, ob sich die Injektionsanzeige rot gef&auml;rbt hat. Dies zeigt an, dass die Injektion vollst&auml;ndig abgeschlossen. Wenn die Injektionsanzeige nicht rot ist, muss die Injektion mit einem neuen Anapen&reg; wiederholt werden.
 
 **(F)** Rufen Sie sofort nach der Anwendung von Anapen&reg; die **Notfallnummer 112** an und geben Sie an, dass Sie eine intramuskul&auml;re Adrenalininjektion aufgrund von „Anaphylaxie“ erhalten haben. Die Rettungskr&auml;fte werden nach ihrem Eintreffen die Entsorgung des benutzten Autoinjektors veranlassen.
 
