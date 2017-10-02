@@ -35,7 +35,7 @@ defaults:
       layout: content_page
       style_id: infocenter
   - scope:
-      path: anwendung.md
+      path: anwendung.html
     values:
       layout: content_page
       style_id: anwendung
