@@ -15,7 +15,7 @@ bild_path: /uploads/anapen2_beschriftet.png
 
 ## Wie ist der Anapen&reg; anzuwenden?
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4Tr0otuiQuU?rel=0&amp;controls=0&amp;showinfo=0" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></div>
+<script src="https://fast.wistia.com/embed/medias/yqdkao0l1r.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_yqdkao0l1r videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 
 [Mehr…](/uploads/Patientenmerkblatt deutsch_Druckdatei.pdf)
 
