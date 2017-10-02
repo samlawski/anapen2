@@ -5,7 +5,7 @@ bild_path: /uploads/anapen2_beschriftet.png
 ---
 
 
-## Wie ist der Anapen&reg; aufgebaut?
+### Wie ist der Anapen&reg; aufgebaut?
 
 * **Drehbare Abdeckung &uuml;ber den Sichtfenstern**: Drehen Sie die Abdeckung &uuml;ber den Sichtfenstern bis die Linsen mit den Sichtfenstern ausgerichtet ist.
 * **Sichtfenster**: Schauen Sie durch die Linse in das Sichtfenster zur Kontrolle der L&ouml;sung. Ist die L&ouml;sung klar und farblos, kann der Anapen&reg; Autoinjektor angewendet werden.
@@ -13,13 +13,18 @@ bild_path: /uploads/anapen2_beschriftet.png
 * **Schwarze Nadelkappe (wiederverwendbar)**: Diese Kappe dient zum Schutz der Nadel, wenn der Anapen&reg; Autoinjektor nicht benutzt wird. Vor der Injektion ziehen Sie die Nadelkappe ab. Nach der Injektion drehen Sie die schwarze Nadelkappe um und stecken diese wieder auf dasselbe Ende des Anapen&reg; Autoinjektors, um die Nadel abzudecken.
 * **Graue Sicherheitskappe**: Diese Kappe deckt den roten Ausl&ouml;seknopf ab und verhindert, dass dieser versehentlich hineingedr&uuml;ckt wird.
 
-## Wie ist der Anapen&reg; anzuwenden?
+
+### Wie ist der Anapen&reg; anzuwenden?
+
 
 <script src="https://fast.wistia.com/embed/medias/yqdkao0l1r.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_yqdkao0l1r seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 
-[Mehr…](/uploads/Patientenmerkblatt deutsch_Druckdatei.pdf)
+
+[Mehr…](/uploads/patientenmerkblatt-anapen-deutsch-nach-vorgabe-bfarm-final.pdf)
+
 
 ### &Uuml;berpr&uuml;fung des Anapen&reg; Autoinjektors
+
 
 1. Drehen Sie die Abdeckung &uuml;ber den Sichtfenstern, um die Linsen mit den Sichtfenstern auszurichten.
 2. Schauen Sie durch die Linse in das Sichtfenster. Die L&ouml;sung muss klar und farblos sein. Wenn die L&ouml;sung getr&uuml;bt oder verf&auml;rbt ist oder Schwebeteilchen enth&auml;lt, muss der Anapen&reg; entsorgt werden.
@@ -50,6 +55,6 @@ bild_path: /uploads/anapen2_beschriftet.png
 
 ***Um Verwechslungen in Notfallsituationen zu vermeiden, sollten der Anapen&reg; Autoinjektor und das f&uuml;r die Demonstration der richtigen Anwendung erh&auml;ltliche Trainingsger&auml;t nicht zusammen aufbewahrt werden.***
 
----
+
 
 [Weitere Infos f&uuml;r &Auml;rzte & Apotheker…](/intern)
