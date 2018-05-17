@@ -1,11 +1,12 @@
 ---
 title: Infocenter
 permalink: /infocenter/
-bild_path: /uploads/anaphylaxie.png
+bild_path: /uploads/depositphotos-anaphylaktischer-schock-min.jpg
 ---
-<section class="editable">
+
+<section>
 <p><strong>1) Definition</strong></p>
-<p>Ein anaphylaktischer Schock ist die schwerste Form einer Überempfindlichkeitsreaktion des Immunsystems auf eine bestimmte allergene Substanz.<br>
+<p>Ein anaphylaktischer Schock ist die schwerste Form einer Überempfindlichkeitsreaktion des Immunsystems auf eine bestimmte allergene Substanz.<br />
 &lt;br&gt;Diese Schocksituation kann akut lebensbedrohlich sein.</p>
 <p> </p>
 <p><strong>2) Auslöser</strong></p>
@@ -25,7 +26,7 @@ bild_path: /uploads/anaphylaxie.png
 <p> </p>
 <p><strong>3) Immunreaktion</strong></p>
 <p>Die Sofortreaktion, welche zum anaphylaktischen Schock führt, findet ihren Urprung in einer <strong>Antigen-Antikörper-Reaktion</strong>. In den Körper eingedrungene Antigene werden bei erstem Kontakt als Fremdstoffe erkannt und daraufhin werden Antikörper gebildet. Dieser Vorgang wird auch als Sensibilisierung bezeichnet.</p>
-<p>Dringt erneut ein Antigen ein, werden die gebildeten Antikörper sofort freigesetzt. Durch die folgende Antigen-Antikörper-Reaktion werden Mediatoren freigesetzt<br>
+<p>Dringt erneut ein Antigen ein, werden die gebildeten Antikörper sofort freigesetzt. Durch die folgende Antigen-Antikörper-Reaktion werden Mediatoren freigesetzt<br />
 &lt;br&gt;(z.B. Histamin, Serotonin, Bradykinin, Prostaglandin), welche die typische Reaktion hervorrufen.</p>
 <p> </p>
 <p><strong>4) Einteilung und Symptome</strong></p>
