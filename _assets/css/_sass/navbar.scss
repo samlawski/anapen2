@@ -5,9 +5,12 @@ body>nav.navbar{
   max-width: $max-width;
   margin: auto;
 
-  padding-top: 25px;
   background-color: white;
   border-bottom: 1px solid $grey-color-light;
+
+  ul {
+    padding-top: 25px;
+  }
 
   a, a:link, a:visited {
     border-bottom: 5px solid transparent;
@@ -24,8 +27,8 @@ body>nav.navbar{
     }
   }
   .logo {
-    width: 180px;
-    margin-top: -20px;
+    width: 140px;
+    margin-top: -10px;
   }
   // Mobile dropdown
   .icon-bar {
@@ -57,5 +60,11 @@ body>nav.navbar{
     .logo{
       left: 16px;
     }
+  }
+}
+@media (max-width: 1031px){
+  body>nav.navbar .logo {
+    width: 91px;
+    margin-top: -8px;
   }
 }
