@@ -20,10 +20,11 @@ function appendLoginForm(){
   $('.intern__content').html(
     '<div class="text-center">' +
       '<div class="lead">Die folgenden Inhalte sind nur für Ärzte und Apotheker zugänglich. Bitte loggen Sie sich ein und/oder klicken Sie auf "Weiter", um die Inhalte sehen zu können.</div>' +
-      '<iframe align="center" frameborder="0" scrolling="no" width="311" height="188" name="dc_login_iframe" id="dc_login_iframe" src="https://login.doccheck.com/code/de/2000000010799/m_red/" ><a href="https://login.doccheck.com/code/de/2000000010799/m_red/" target="_blank">LOGIN</a></iframe>' +
+      '<iframe align="center" frameborder="0" scrolling="no" width="311" height="188" name="dc_login_iframe" id="dc_login_iframe" src="https://login.doccheck.com/code/de/2000000014225/login_xl/" ><a href="https://login.doccheck.com/code/de/2000000014225/login_xl/" target="_blank">LOGIN</a></iframe>' +
     '</div>'
   );
 };
+
 
 // Check if doccheck_key already exists in session storage
 if(sessionStorage.doccheck_key && sessionStorage.doccheck_key.length > 0){
