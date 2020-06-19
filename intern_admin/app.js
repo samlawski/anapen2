@@ -10,7 +10,7 @@ function randomString(){
 function initializePageContent(){
   firebase.database().ref().once("value", function(snap){
     var key = Object.keys(snap.val())[0];
-    content = new PageContent(key);
+    pageContent = new PageContent(key);
   });
 };
 
@@ -57,16 +57,16 @@ function prependServerURLtoEditorImages(){
   }
 };
 
-var content;
+var pageContent;
 window.onload = function(){
   // Firebase authantication
   firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
-      if(typeof content == "undefined"){
+      if(typeof pageContent == "undefined"){
         // Toggle views
         document.querySelector('main').classList.remove('hidden');
         document.getElementById('require_login').classList.add('hidden');
-        // Get content from firebase
+        // Get pageContent from firebase
         initializePageContent();
       }
     } else {
