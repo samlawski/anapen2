@@ -36,6 +36,12 @@ if(sessionStorage.doccheck_key && sessionStorage.doccheck_key.length > 0){
 
       // dynamically adjust HTML in Beschreibung
       $(".intern__content a").attr('target', '_new');
+
+      // Show Bestellung section
+      $(".intern__bestellung").removeClass("hidden")
+
+      // Show Logout Link
+      // https://login.doccheck.com/code/de/2000000009691/m_red/?dc_force_logout=1
     }else{
       appendLoginForm();
     }
