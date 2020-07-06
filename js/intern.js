@@ -42,6 +42,7 @@ if(sessionStorage.doccheck_key && sessionStorage.doccheck_key.length > 0){
 
       // Show Logout Link
       // https://login.doccheck.com/code/de/2000000009691/m_red/?dc_force_logout=1
+      // https://www.w3schools.com/html/tryit.asp?filename=tryhtml_iframe_target
     }else{
       appendLoginForm();
     }
