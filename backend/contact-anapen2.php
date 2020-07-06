@@ -28,7 +28,7 @@ try {
   // Throw an error if origin isn't correct
   $url_whitelist = array("https://bioprojet.de", "http://bioprojet.de", "https://www.bioprojet.de", "http://www.bioprojet.de", "https://anapen2.de", "http://anapen2.de", "https://www.anapen2.de", "http://www.anapen2.de"); 
   $header_origin = $_SERVER['HTTP_ORIGIN'];
-  if(in_array($header_origin,$url_whitelist)){
+  if(!in_array($header_origin,$url_whitelist)){
     throw new Exception("False Origin! $header_origin");
   };
   if(!empty($honeypot)){
@@ -61,7 +61,7 @@ try {
   header('Location: https://anapen2.de/danke/');
   exit();
 } catch (Exception $e) {
-  // echo "Message could not be sent. \n $titel  , $vorname , $nachname , $email \n Error: {$mail->ErrorInfo} \n\n $e";
   echo "Leider konnte die Nachricht nicht verschickt werden.\n\nBitte senden Sie uns eine Email, indem Sie einfach direkt <a href=\"mailto:info@bioprojet.de?subject=Kontaktanfrage von $name&body=$nachricht\">HIER klicken</a>.";
+  // echo "Message could not be sent. \n $name , $email , $nachricht, $honeypot \n Error: {$mail->ErrorInfo} \n\n $e";
   exit();
 }
