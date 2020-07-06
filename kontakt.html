@@ -21,14 +21,13 @@ permalink: /kontakt/
     <p class="editable">
       Telefon: +49 (0)30 3465 5460-0<br />Telefax: +49 (0)30 3465 5460-9<br />E-Mail: <a href="mailto:info@bioprojet.de">info@bioprojet.de</a>
     </p>
-    <form method="post" action="/danke">
-      <input name="name" type="text" class="form-control" placeholder="Name" /><br />
-      <input name="email" type="text" class="form-control" placeholder="Email" /><br />
-      <textarea name="message" class="form-control" placeholder="Nachricht" rows="8"></textarea><br />
 
-      <input type="hidden" name="_to" value="info@bioprojet.de" />
-      <input type="text" name="_gotcha" style="display: none;" />
-      <div class="g-recaptcha" data-sitekey="6LfWMQsUAAAAAMf4mJ5sGl3iyGbIODPZ8WZOoCeU" data-callback="enableSubmit" data-expired-callback="disableSubmit"></div>
+    <!-- Dieser Endpunkt befindet sich im Ordner /backend und wird separat hochgeladen -->
+    <form action="https://api.anapen2.de/contact-anapen2.php" method="POST">
+      <input name="name" type="text" class="form-control" placeholder="Name" required /><br />
+      <input name="email_echt" type="email" class="form-control" placeholder="Email" required /><br />
+      <input name="email" type="text" style="display: none;">
+      <textarea name="nachricht" class="form-control" placeholder="Nachricht" rows="8" required></textarea><br />
 
       <input type="submit" class="send-form btn btn-default hidden" value="Abschicken" />
     </form>

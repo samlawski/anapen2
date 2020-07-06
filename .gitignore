@@ -2,3 +2,6 @@ _site
 .sass-cache
 .asset-cache
 .jekyll-metadata
+backend/secrets.php
+.DS_Store
+backend/secrets-anapen2.php
