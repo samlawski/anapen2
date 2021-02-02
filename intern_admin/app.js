@@ -87,7 +87,7 @@ window.onload = function(){
   // Listen: Admin access
   document.getElementById('admin_access_submit').onclick = function(){
     var password = document.getElementById('admin_access_pw').value;
-    firebase.auth().signInWithEmailAndPassword('admin_access2@bioprojet.de', password).then(function(){
+    firebase.auth().signInWithEmailAndPassword('admin_access@bioprojet.de', password).then(function(){
     }).catch(function(error) {
       // Handle Errors here.
       var errorCode = error.code;
