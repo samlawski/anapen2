@@ -22,7 +22,7 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 // Width of the content area
-$max-width:    800px !default;
+$max-width:    880px !default;
 // $content-width:    800px !default;
 //
 // $on-palm:          600px !default;
@@ -49,5 +49,6 @@ $max-width:    800px !default;
   "_sass/navbar",
   "_sass/index",
   "_sass/intern",
+  "_sass/downloads",
   "_sass/was-ist-neu"
 ;

@@ -1,0 +1,45 @@
+---
+title: Downloads
+permalink: /downloads/
+bild_path: 
+downloads:
+  - titel: >-
+      Patientenmerkblatt Anapen
+    datei_path: /uploads/Patientenmerkblatt Anapen.pdf
+    bild_path: /uploads/screen-merkblatt.png
+  - titel: >-
+      Anaphylaxie-Ratgeber für Patienten
+    datei_path: /uploads/Anaphylaxie-Ratgeber f. Patienten.pdf
+    bild_path: /uploads/screen-ratgeber.png
+  - titel: >-
+      Anaphylaxie-Notfallplan
+    datei_path: /uploads/Anaphylaxie-Notfallplan.pdf
+    bild_path: /uploads/screen-notfall.png
+  - titel: >-
+      Flugbescheinigung Anapen
+    datei_path: /uploads/Flugbescheinigung Anapen.pdf
+    bild_path: /uploads/screen-flugbescheinigung.png
+---
+
+<section>
+  <div class="downloads__wrapper">
+    {% for datei in page.downloads %}
+      <div class="downloads__download">
+        <div class="thumbnail">
+          {% if datei.bild_path %}
+            <a href="{{datei.datei_path}}">
+              <img src="{{datei.bild_path}}" alt="{{datei.titel}}">
+            </a>
+          {% endif %}
+          <div class="caption">
+            <p>
+              <a href="{{datei.datei_path}}">
+                <span class="glyphicon glyphicon-download" aria-hidden="true"></span> {{datei.titel}}
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

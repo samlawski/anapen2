@@ -50,6 +50,11 @@ defaults:
       layout: page
       style_id: wasistneu
   - scope:
+      path: downloads.html
+    values:
+      layout: page
+      style_id: downloads
+  - scope:
       path: kontakt.html
     values:
       layout: page
